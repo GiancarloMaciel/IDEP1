@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Países com Maior PIB</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #000;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        .flag {
+            width: 50px;
+            height: auto;
+        }
+        .points-of-interest {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Top 10 Países com Maior PIB</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ranking</th>
+                    <th>Bandeira</th>
+                    <th>País</th>
+                    <th>PIB (USD)</th>
+                    <th>PIB (BRL)</th>
+                    <th>Pontos Turísticos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Exemplo de dados -->
+                <tr>
+                    <td>1</td>
+                    <td><img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/05/bandeira-estados-unidos.jpg" alt="USA Flag" class="flag"></td>
+                    <td>Estados Unidos</td>
+                    <td>$23.00 Trilhão</td>
+                    <td>R$ 115.00 Trilhão</td>
+                    <td class="points-of-interest">
+                        <ol>
+                            <li>Estátua da Liberdade</li>
+                            <li>Grand Canyon</li>
+                            <li>Times Square</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/255px-Flag_of_the_People%27s_Republic_of_China.svg.png" alt="China Flag" class="flag"></td>
+                    <td>China</td>
+                    <td>$16.00 Trilhão</td>
+                    <td>R$ 80.00 Trilhão</td>
+                    <td class="points-of-interest">
+                        <ol>
+                            <li>Grande Muralha</li>
+                            <li>Proibição da Cidade</li>
+                            <li>Exército de Terracota</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="https://s4.static.brasilescola.uol.com.br/be/2022/11/bandeira-do-japao.jpg" alt="Japan Flag" class="flag"></td>
+                    <td>Japão</td>
+                    <td>$5.00 Trilhão</td>
+                    <td>R$ 25.00 Trilhão</td>
+                    <td class="points-of-interest">
+                        <ol>
+                            <li>Tóquio</li>
+                            <li>Monte Fuji</li>
+                            <li>Templo Kinkaku-ji</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><img src="https://s2.static.brasilescola.uol.com.br/be/2022/10/bandeira-da-alemanha.jpg" alt="Germany Flag" class="flag"></td>
+                    <td>Alemanha</td>
+                    <td>$4.00 Trilhão</td>
+                    <td>R$ 20.00 Trilhão</td>
+                    <td class="points-of-interest">
+                        <ol>
+                            <li>Portão de Brandemburgo</li>
+                            <li>Catedral de Colônia</li>
+                            <li>Castelo de Neuschwanstein</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="UK Flag" class="flag"></td>
+                    <td>Reino Unido</td>
+                    <td>$3.00 Trilhão</td>
+                    <td>R$ 15.00 Trilhão</td>
+                    <td class="points-of-interest">
+                        <ol>
+                            <li>Big Ben</li>
+                            <li>Palácio de Buckingham</li>
+                            <li>Londres Eye</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/280px-Flag_of_India.svg.png" alt="India Flag" class="flag"></td>
+                    <td>Índia</td>
+                    <td>$2.90 Trilhão</td>
+                    <td>R$ 14.50 Trilhão</td>
+                    <td class="points-of-interest">
+                        <ol>
+                            <li>Taj Mahal</li>
+                            <li>Palácio dos Ventos</li>
+                            <li>Porta da Índia</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg" alt="Italy Flag" class="flag"></td>
+                    <td>Itália</td>
+                    <td>$2.80 Trilhão</td>
+                    <td>R$ 14.00 Trilhão</td>
+                    <td class="points-of-interest">
+                        <ol>
+                            <li>Coliseu</li>
+                            <li>Torres de Pisa</li>
+                            <li>Vaticano</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><img src="https://s3.static.brasilescola.uol.com.br/be/2022/10/bandeira-do-canada.jpg" alt="Canada Flag" class="flag"></td>
+                    <td>Canadá</td>
+                    <td>$2.50 Trilhão</td>
+                    <td>R$ 12.50 Trilhão</td>
+                    <td class="points-of-interest">
+                        <ol>
+                            <li>Niagara Falls</li>
+                            <li>CN Tower</li>
+                            <li>Parque Nacional de Banff</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg" alt="France Flag" class="flag"></td>
+                    <td>França</td>
+                    <td>$2.40 Trilhão</td>
+                    <td>R$ 12.00 Trilhão</td>
+                    <td class="points-of-interest">
+                        <ol>
+                            <li>Torre Eiffel</li>
+                            <li>Louvre</li>
+                            <li>Catedral de Notre-Dame</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/300px-Flag_of_South_Korea.svg.png" alt="South Korea Flag" class="flag"></td>
+                    <td>Coreia do Sul</td>
+                    <td>$2.20 Trilhão</td>
+                    <td>R$ 11.00 Trilhão</td>
+                    <td class="points-of-interest">
+                        <ol>
+                            <li>Palácio Gyeongbokgung</li>
+                            <li>Seul</li>
+                            <li>Templo Jogyesa</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td colspan="2"></td>
+                    <td>$66.40 Trilhão</td>
+                    <td>R$ 332.00 Trilhão</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
